@@ -25,3 +25,6 @@ The training process is executed from the `train/` folder using the following co
 
 ```bash
 singularity exec -B /raid/umutarioz/:/Dockers/ --nv /raid/umutarioz/BERT/ner_env.sif/ bash /Dockers/BERT/create_ner_env.sh data/train.parquet data/validate.parquet data/test.parquet "0,1" 2 "my_run_name" "log_file_name"
+```
+
+Visit [weakly-supervised-multi-lingual-ner-pipeline](https://huggingface.co/collections/rigonsallauka/weakly-supervised-multi-lingual-ner-pipeline-67079f566a22b1b67ac9631f) collection in HuggingFace Hub to see the models.

@@ -44,5 +44,5 @@ The code can be found in the following files:
 - `tagging/tagDocument.py`
 - `tagging/process_notes.py`
 
-Output files can be found in `dataset` folder.
+Visit [weakly-supervised-multi-lingual-ner-pipeline](https://huggingface.co/collections/rigonsallauka/weakly-supervised-multi-lingual-ner-pipeline-67079f566a22b1b67ac9631f) collection in HuggingFace Hub to see the datasets.
 

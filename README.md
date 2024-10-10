@@ -38,3 +38,5 @@ The pipeline supports the following languages:
 - **Slovenian**
 - **Polish**
 - **Portuguese**
+
+Visit [weakly-supervised-multi-lingual-ner-pipeline](https://huggingface.co/collections/rigonsallauka/weakly-supervised-multi-lingual-ner-pipeline-67079f566a22b1b67ac9631f) collection in HuggingFace Hub to see the models and datasets.
