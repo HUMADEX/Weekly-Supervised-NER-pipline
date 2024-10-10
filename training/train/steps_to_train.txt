@@ -1,2 +1,0 @@
-# Use this to execute the training, set paths for train/validate/test sets, visible GPUs and the number of GPUs to be used. Make sure the paths are correct.
-singularity exec -B /raid/umutarioz/:/Dockers/ --nv /raid/umutarioz/BERT/ner_env.sif/ bash /Dockers/BERT/create_ner_env.sh data/train.parquet data/validate.parquet data/test.parquet "0,1" 2 "my_run_name" "log_file_name"
