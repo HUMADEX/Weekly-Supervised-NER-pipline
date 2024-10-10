@@ -1,0 +1,15 @@
+              precision    recall  f1-score   support
+
+     PROBLEM     0.8129    0.8010    0.8069     76655
+        TEST     0.7907    0.7867    0.7887      8226
+   TREATMENT     0.8061    0.7813    0.7935     30881
+
+   micro avg     0.8095    0.7947    0.8020    115762
+   macro avg     0.8032    0.7897    0.7964    115762
+weighted avg     0.8095    0.7947    0.8020    115762
+
+compute_metrics = 0.9150863673492431
+eval_loss = 0.24090342944081145
+f1_score = 0.8020470079508997
+precision = 0.8095137532337258
+recall = 0.7947167464280162

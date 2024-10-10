@@ -1,0 +1,36 @@
+2024-10-02 12:18:43 INFO: Running NER tagger in predict mode
+2024-10-02 12:18:43 DEBUG: Loaded pretrain from saved_models/ner/mimic.pt
+2024-10-02 12:18:43 DEBUG: Old model format detected.  Updating to the new format with one column of tags
+2024-10-02 12:18:43 DEBUG: Building SGD with lr=0.100000, momentum=0.000000
+2024-10-02 12:18:44 DEBUG: Loaded model for eval from saved_models/ner/i2b2.pt
+2024-10-02 12:18:44 DEBUG: Using the 0 tagset for evaluation
+2024-10-02 12:18:44 INFO: Loading data with batch size 32...
+2024-10-02 12:18:50 DEBUG: 805 batches created.
+2024-10-02 12:18:50 INFO: Start evaluation...
+2024-10-02 12:19:54 INFO: Score by entity:
+Prec.   Rec.    F1
+99.98   99.96   99.97
+2024-10-02 12:19:54 INFO: Score by token:
+Prec.   Rec.    F1
+99.98   99.97   99.98
+2024-10-02 12:19:54 INFO: Weighted f1 for non-O tokens: 0.999775
+2024-10-02 12:19:54 INFO: NER tagger score: None saved_models/ner/i2b2.pt data/ner/en_test_noaug.json 99.97
+2024-10-02 12:19:54 INFO: NER Entity F1 scores:
+  PROBLEM: 99.98
+  TEST: 99.97
+  TREATMENT: 99.96
+2024-10-02 12:19:54 INFO: NER token confusion matrix:
+        t\p               O   B-PROBLEM   E-PROBLEM   I-PROBLEM   S-PROBLEM      B-TEST      E-TEST      I-TEST      S-TEST B-TREATMENT E-TREATMENT I-TREATMENT S-TREATMENT
+              O      308145           1           0           0           0           0           0           0           0           0           0           1           0
+      B-PROBLEM           1       13934           0           0           0           1           0           0           0           0           0           0           0
+      E-PROBLEM           2           0       13933           0           0           0           1           0           0           0           0           0           0
+      I-PROBLEM           0           1           2       12150           0           0           0           2           0           0           0           0           0
+      S-PROBLEM           0           0           1           0        5067           0           0           0           0           0           0           0           0
+         B-TEST           0           0           0           0           0        1659           0           0           0           0           0           0           0
+         E-TEST           0           0           0           0           0           0        1659           0           0           0           0           0           0
+         I-TEST           0           0           0           0           0           0           0        1070           0           0           0           0           0
+         S-TEST           0           0           0           0           0           0           0           0         230           0           0           0           0
+    B-TREATMENT           2           0           0           0           0           0           0           0           0        5315           0           0           0
+    E-TREATMENT           2           0           0           0           0           0           0           0           0           0        5315           0           0
+    I-TREATMENT           0           0           0           0           0           0           0           0           0           0           0        4147           0
+    S-TREATMENT           1           0           0           0           0           0           0           0           0           1           1           0        2307

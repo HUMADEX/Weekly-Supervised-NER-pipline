@@ -1,0 +1,22 @@
+es model: lcampillos/roberta-es-clinical-trials-ner
+
+Accuracy: 0.6699
+Precision: 0.5879
+Recall: 0.6699
+F1-Score: 0.6260
+
+Confusion Matrix (Rows=True Labels, Columns=Predicted Labels):
+                  O  B-PROBLEM  I-PROBLEM  E-PROBLEM  S-PROBLEM  B-TREATMENT  I-TREATMENT  E-TREATMENT  S-TREATMENT  B-TEST  I-TEST  E-TEST  S-TEST
+O            378494       6239      10513          0          0         7312         5025            0            0       0       0       0       0
+B-PROBLEM     24183       4123       7490          0          0          330          217            0            0       0       0       0       0
+I-PROBLEM     16181       4528      10039          0          0          411          351            0            0       0       0       0       0
+E-PROBLEM     11759      23591       5541          0          0          701          266            0            0       0       0       0       0
+S-PROBLEM      2101      11617       1205          0          0          131           88            0            0       0       0       0       0
+B-TREATMENT   10324        239        165          0          0         1595         1439            0            0       0       0       0       0
+I-TREATMENT    5898        354        219          0          0         1643         2170            0            0       0       0       0       0
+E-TREATMENT    5647        238        114          0          0         8328         1034            0            0       0       0       0       0
+S-TREATMENT    1099        101         62          0          0         5495          207            0            0       0       0       0       0
+B-TEST         3759         33        125          0          0          133          527            0            0       0       0       0       0
+I-TEST         1106         37        151          0          0          269         1195            0            0       0       0       0       0
+E-TEST         1490        200        110          0          0         2832          288            0            0       0       0       0       0
+S-TEST          272         34         16          0          0          359           45            0            0       0       0       0       0
