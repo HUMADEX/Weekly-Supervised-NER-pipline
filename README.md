@@ -39,7 +39,7 @@ The pipeline supports the following languages:
 - **Polish**
 - **Portuguese**
 
-Visit [weakly-supervised-multi-lingual-ner-pipeline](https://huggingface.co/collections/rigonsallauka/weakly-supervised-multi-lingual-ner-pipeline-67079f566a22b1b67ac9631f) collection in HuggingFace Hub to see the models and datasets.
+Visit [weakly-supervised-multi-lingual-ner-pipeline](https://huggingface.co/collections/HUMADEX/weakly-supervised-multi-lingual-ner-pipeline-67091a099e653e1af93a352a) collection in HuggingFace Hub to see the models and datasets.
 
 ## Acknowledgement
 
