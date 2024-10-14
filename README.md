@@ -15,6 +15,7 @@ The following entity tags are used: PROBLEM, TEST, and TREATMENT.
 
 ### Translation into Multiple Languages
 The annotated English dataset is translated into seven languages:
+
 The annotated English dataset is translated into Polish: 
 Model name: gsarti/opus-mt-tc-en-pl(https://huggingface.co/gsarti/opus-mt-tc-en-pl) 
 
@@ -35,6 +36,11 @@ Model name: Helsinki-NLP/opus-mt-en-de (https://huggingface.co/Helsinki-NLP/opus
 
 The annotated English dataset is translated into Slovenian: 
 Model name: facebook/mbart-large-50-many-to-many-mmt (https://huggingface.co/facebook/mbart-large-50-many-to-many-mmt) 
+
+### Word Alignment
+
+Model: [aneuraz/awesome-align-with-co](https://huggingface.co/aneuraz/awesome-align-with-co)
+
 
 
 ### Fine-tuning Multilingual BERT Models
