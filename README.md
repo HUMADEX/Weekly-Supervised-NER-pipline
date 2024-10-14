@@ -15,13 +15,27 @@ The following entity tags are used: PROBLEM, TEST, and TREATMENT.
 
 ### Translation into Multiple Languages
 The annotated English dataset is translated into seven languages:
-German
-Italian
-Spanish
-Greek
-Slovenian
-Polish
-Portuguese
+The annotated English dataset is translated into Polish: 
+Model name: gsarti/opus-mt-tc-en-pl(https://huggingface.co/gsarti/opus-mt-tc-en-pl) 
+
+The annotated English dataset is translated into Spanish:
+Model name: Helsinki-NLP/opus-mt-tc-big-en-es (https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-en-es)
+
+The annotated English dataset is translated into Greek: 
+Model name: Helsinki-NLP/opus-mt-en-el (https://huggingface.co/Helsinki-NLP/opus-mt-en-el)
+
+The annotated English dataset is translated into Portugese: 
+Model name: Helsinki-NLP/opus-mt-tc-big-en-pt (https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-en-pt)
+
+The annotated English dataset is translated into Italian: 
+Model name: Helsinki-NLP/opus-mt-tc-big-en-it (https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-en-it)
+
+The annotated English dataset is translated into German: 
+Model name: Helsinki-NLP/opus-mt-en-de (https://huggingface.co/Helsinki-NLP/opus-mt-en-de) 
+
+The annotated English dataset is translated into Slovenian: 
+Model name: facebook/mbart-large-50-many-to-many-mmt (https://huggingface.co/facebook/mbart-large-50-many-to-many-mmt) 
+
 
 ### Fine-tuning Multilingual BERT Models
 Language-specific BERT models are fine-tuned using the translated datasets.
