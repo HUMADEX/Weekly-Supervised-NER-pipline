@@ -39,9 +39,11 @@ Model name: facebook/mbart-large-50-many-to-many-mmt (https://huggingface.co/fac
 
 ### Word Alignment
 
+This approach leverages contextual word embeddings and different techniques to find corresponding words between sentences in different languages.
+
 Model: [aneuraz/awesome-align-with-co](https://huggingface.co/aneuraz/awesome-align-with-co)
 
-
+Reference: Dou, Z. Y., & Neubig, G. (2021). Word alignment by fine-tuning embeddings on parallel corpora. arXiv preprint arXiv:2101.08231.
 
 ### Fine-tuning Multilingual BERT Models
 Language-specific BERT models are fine-tuned using the translated datasets.
