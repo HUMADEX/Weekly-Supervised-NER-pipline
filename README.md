@@ -63,6 +63,10 @@ The pipeline supports the following languages:
 
 Visit [weakly-supervised-multi-lingual-ner-pipeline](https://huggingface.co/collections/HUMADEX/weakly-supervised-multi-lingual-ner-pipeline-67091a099e653e1af93a352a) collection in HuggingFace Hub to see the models and datasets.
 
+## Preprint
+The preprint version of the paper associated with this code is available at:
+[Preprint DOI: 10.20944/preprints202504.1356.v1](https://www.preprints.org/manuscript/202504.1356/v1)
+
 ## Acknowledgement
 
 This code had been created as part of joint research of HUMADEX research group (https://www.linkedin.com/company/101563689/) and has received funding by the European Union Horizon Europe Research and Innovation Program project SMILE (grant number 101080923) and Marie Skłodowska-Curie Actions (MSCA) Doctoral Networks, project BosomShield (grant number 101073222). Responsibility for the information and views expressed herein lies entirely with the authors.
